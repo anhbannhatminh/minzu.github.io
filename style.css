@@ -151,7 +151,7 @@ content h4
 }
 .rainbow
 {
-	margin-top: 70%;
+	margin-top: 60%;
 	font-family: sans-serif;
 	font-size: 110%;
 	opacity: 0.5;
@@ -177,8 +177,4 @@ content h4
   100% {
     color: #6666ff;
   }
-}
-audio
-{
-	opacity: 0;
 }
