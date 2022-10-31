@@ -81,7 +81,7 @@ body
 	background-repeat: no-repeat;  
   	background-attachment: fixed;  
   	background-size: cover;
-	background-image: url('cbg.jpg');
+	background-image: url('abc.jpg');
   	-webkit-filter: blur(5px);
   	-moz-filter: blur(5px);
   	-o-filter: blur(5px);
@@ -111,11 +111,11 @@ body
 {
 	width: 300px;
 	height: 400px;
-	background: rgba(0, 0, 0, 0.6);
+	background: rgba(255, 255, 255, 0.3);
 	text-align: center;
 	margin: auto;
-	margin-bottom: 10%;
-	border-radius: 15px;
+	margin-bottom: 35%;
+	border-radius: 30px;
 }
 .box-img
 {
@@ -150,7 +150,7 @@ content h4
 }
 .rainbow
 {
-	margin-top: 50%;
+	margin-top: 40%;
 	font-family: sans-serif;
 	font-size: 110%;
 	opacity: 0.5;
@@ -176,4 +176,9 @@ content h4
   100% {
     color: #6666ff;
   }
+}
+.navigation
+{
+	margin-left: 175px;
+	margin-top: -45px;
 }
