@@ -309,15 +309,8 @@ class VanillaTilt {
 
     this.updateCall = null;
   }
-
-  /**
-   * Appends the glare element (if glarePrerender equals false)
-   * and sets the default style
-   */
   prepareGlare() {
-    // If option pre-render is enabled we assume all html/css is present for an optimal glare effect.
     if (!this.glarePrerender) {
-      // Create glare element
       const jsTiltGlare = document.createElement("div");
       jsTiltGlare.classList.add("js-tilt-glare");
 
@@ -353,7 +346,7 @@ class VanillaTilt {
       "background-image": `linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%)`,
       "transform": "rotate(180deg) translate(-50%, -50%)",
       "transform-origin": "0% 0%",
-      "opacity": "0",
+      "opacity": "0.5",
     });
 
     this.updateGlareSize();

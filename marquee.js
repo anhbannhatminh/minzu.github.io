@@ -3,7 +3,7 @@
   setInterval(function() {
     title = title.substring(1) + title.charAt(0);
     document.title = title;
-  }, m || 200);
+  }, m || 400);
 })(
-  "day la website cua mz",
+  "mz dep chai!!!",
   "-",200);

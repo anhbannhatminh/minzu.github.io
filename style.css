@@ -38,7 +38,7 @@ header h4
 	top:  50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	color: whitesmoke;
+	color: white;
 }
 
 .logo
@@ -162,23 +162,25 @@ content h4
 @keyframes colorRotate
 {
   from {
-    color: #6666ff;
+    color: #ff5757;
   }
   5% {
-    color: #0099ff;
+    color: #ff7e57;
+  }
+  15% {
+    color: #f9ff57;
   }
   25% {
-    color: #00ff00;
+    color: #5aff57;
   }
   50% {
-    color: #ff3399;
+    color: #5795ff;  
+  }
+  75% {
+  	color: #7357ff;
   }
   100% {
-    color: #6666ff;
+  	color: #ff57d8;
   }
 }
-.navigation
-{
-	margin-left: 175px;
-	margin-top: -45px;
-}
+
