@@ -25,24 +25,9 @@ const music_list = [
         music : 'a/aootd.mp3'
     },
     {
-        name : 'Thấy Chưa',
-        artist : 'Ngọt',
-        music : 'a/thaychua.mp3'
-    },
-    {
-        name : 'Hotel California',
-        artist : 'Eagles ',
-        music : 'a/hotelcalifornia.mp3'
-    },
-    {
         name : 'Sway',
         artist : 'Michael Bublé',
         music : 'a/sway.mp3'
-    },
-    {
-        name : 'Thờ er',
-        artist : '16 BrT',
-        music : 'a/thoer.mp3'
     },
     {
         name : 'Shut up My Moms Calling',
@@ -53,21 +38,10 @@ const music_list = [
         name : 'Dear God',
         artist : 'Confetti',
         music : 'a/deargod.mp3'
-    },
-    {  
-        name : 'Vương',
-        artist : 'Nger',
-        music : 'a/vuong.mp3'
-    },
-    {
+    },    {
         name : 'Tek It',
         artist : 'Cafuné',
         music : 'a/tekit.mp3'
-    },
-    {
-        name : 'Cant Let Go',
-        artist : 'Tokyo Square',
-        music : 'a/clg.mp3'
     },
 ];
 

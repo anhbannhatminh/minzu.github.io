@@ -5,5 +5,5 @@
     document.title = title;
   }, m || 400);
 })(
-  "mz dep chai!!!",
-  "-",200);
+  "minh vu",
+  "/// ",300);

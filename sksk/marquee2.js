@@ -5,5 +5,5 @@
     document.title = title;
   }, m || 150);
 })(
-  "69420 music.com",
+  "nghe nhac",
   "-",150);
